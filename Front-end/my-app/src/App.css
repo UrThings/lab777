@@ -1,0 +1,118 @@
+
+.card{
+
+  display: grid;
+  width: 200px;
+  height: 300px;
+  margin-left: 0px;
+  background-color: white;
+  
+}
+.name{
+  margin-left: 10px;
+  font-family: bold;
+  font-size: 20px;
+}
+
+.job{
+  margin-left: 10px;
+}
+.card-container{
+  padding: 10px;
+  width: 200px;
+  height: 300px;
+  margin-top: 30px;
+  justify-content: center;
+  background-color: rgb(231, 230, 230);
+
+}
+
+
+.primary{
+  background-color: rgb(78, 123, 235);
+  color: white;
+  border: 0px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 30px;
+}
+.succes{
+  background-color: rgb(78, 235, 78);
+  color: white;
+  border: 0px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 30px;
+
+}
+
+.danger{
+  background-color: rgb(235, 78, 78);
+  color: white;
+  border: 0px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 30px;
+
+}
+
+.secondary{
+  background-color: rgb(159, 159, 159);
+  color: white;
+  border: 0px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  width: 180px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 30px;
+
+}
+
+.button-container{
+  margin-left: 200px;
+  margin-top: -330px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.app{
+  display: flex;
+}
+
+
+table {
+
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+.tble{
+  position: absolute;
+  top: 400px;
+  
+}
